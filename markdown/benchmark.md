@@ -51,7 +51,7 @@ Note:
   data you're writing.
 
 
-<iframe src="https://asciinema.org/api/asciicasts/13104?size=medium&amp;theme=solarized-light&amp;speed=2" id="asciicast-iframe-13104" name="asciicast-iframe-13104" scrolling="yes"></iframe>
+<iframe src="https://asciinema.org/api/asciicasts/13104?size=medium&amp;theme=solarized-light&amp;speed=3" id="asciicast-iframe-13104" name="asciicast-iframe-13104" scrolling="yes"></iframe>
 Note:
 - Here, on a live Ceph cluster, on the OSD directory, I'm writing 1G to the
   journal device directly (a symlink to a partition, as you can see), in direct
@@ -83,7 +83,7 @@ Note:
   100MB 10 times (1GB)
 
 
-<iframe src="https://asciinema.org/api/asciicasts/13105?size=medium&amp;theme=solarized-light&amp;speed=2" id="asciicast-iframe-13105" name="asciicast-iframe-13105" scrolling="yes"></iframe>
+<iframe src="https://asciinema.org/api/asciicasts/13105?size=medium&amp;theme=solarized-light&amp;speed=3" id="asciicast-iframe-13105" name="asciicast-iframe-13105" scrolling="yes"></iframe>
 Note:
 - We get 6.3GB/s aggregate bandwidth, which is cool.
 - You can play around with the parameters as I'm doing here.  Usually, a
@@ -115,7 +115,7 @@ Note:
 - This is really useful because it comes bundled with Ceph.
 
 
-<iframe src="https://asciinema.org/api/asciicasts/13106?size=medium&amp;theme=solarized-light&amp;speed=2" id="asciicast-iframe-13106" name="asciicast-iframe-13106" scrolling="yes"></iframe>
+<iframe src="https://asciinema.org/api/asciicasts/13106?size=medium&amp;theme=solarized-light&amp;speed=3" id="asciicast-iframe-13106" name="asciicast-iframe-13106" scrolling="yes"></iframe>
 Note:
 - What comes out is something like this.
 - I always run benchmarks, as you've seen, at least 3 times, and take an
@@ -144,7 +144,7 @@ Note:
   removes objects it creates, if you interrupt it with SIGINT, they'll remain.
 
 
-<iframe src="https://asciinema.org/api/asciicasts/13107?size=medium&amp;theme=solarized-light&amp;speed=2" id="asciicast-iframe-13107" name="asciicast-iframe-13107" scrolling="yes"></iframe>
+<iframe src="https://asciinema.org/api/asciicasts/13107?size=medium&amp;theme=solarized-light&amp;speed=3" id="asciicast-iframe-13107" name="asciicast-iframe-13107" scrolling="yes"></iframe>
 Note:
 - This is what it looks like.
 - Another reason to use a separate pool is that you can play with the number of
