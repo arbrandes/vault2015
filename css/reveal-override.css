@@ -17,7 +17,7 @@
 /* Blow iframe up to full screen size */
 .reveal section iframe
 {
-  height: 100%;
+  height: 15em;
   width: 100%;
   margin: 2%;
 }
