@@ -159,7 +159,7 @@ Note:
 ## fio RBD benchmarks
 ```sh
 fio --size=10G \
-	--ioengine=librbd \
+	--ioengine=rbd \
 	--invalidate=0 \
 	--direct=1 \
 	--numjobs=10 \
